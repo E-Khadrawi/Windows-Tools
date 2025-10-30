@@ -114,7 +114,7 @@ Start-Process powershell -Verb RunAs -ArgumentList "-NoProfile -ExecutionPolicy 
 ```  
 
 **Q: Why does it crash when selecting registry cleanup?**  
-A: This was fixed in v3.1.3. The tool now safely lists and deletes registry keys with auto-backup.  
+A: This was fixed in v5.0.0. The tool now safely lists and deletes registry keys with auto-backup.  
 
 **Q: Why was Registry Defrag removed?**  
 A: It depended on NTREGOPT, which is no longer accessible. The script is now fully offline and native to Windows.  
